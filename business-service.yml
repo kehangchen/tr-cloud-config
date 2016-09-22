@@ -1,0 +1,6 @@
+configuration:  
+  projectName: business-service
+server:
+  port: 9081
+message:
+  greeting: Hello from the configuration!
