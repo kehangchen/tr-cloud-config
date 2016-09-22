@@ -1,0 +1,6 @@
+configuration:  
+  projectName: test-config 
+server:
+  port: 9999
+message:
+  greeting: Hello from the test configuration!
