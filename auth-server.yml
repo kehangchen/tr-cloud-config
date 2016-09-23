@@ -1,0 +1,49 @@
+spring:
+  profiles:
+    active:  docker
+
+server:
+  port: 9080
+  contextPath: /tr
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    
+com:
+  traderocker:
+    authserver:
+      config:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost
+        port: 3306
+        databaseName: oauth_db
+        userName: root
+        
+include:
+  test:
+    users: true
+  db:
+    users: true
+        
+---
+
+spring:
+  profiles: docker
+
+com:
+  traderocker:
+    authserver:
+      config:
+        password: password
+        
+---
+
+spring:
+  profiles: local
+  
+com:
+  traderocker:
+    authserver:
+      config:
+        password: ""
