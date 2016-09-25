@@ -1,7 +1,15 @@
-server.port=8761
+configuration:
+  projectName: registry-server
 
-eureka.client.register-with-eureka=false
-eureka.client.fetch-registry=false
+server:
+  port: 8761
 
-logging.level.com.netflix.eureka=OFF
-logging.level.com.netflix.discovery=OFF
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
