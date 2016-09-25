@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: business-service
+
 configuration:
   projectName: business-service
 server:

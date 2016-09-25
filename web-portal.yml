@@ -1,6 +1,8 @@
 debug: true
 
 spring:
+  application:
+    name: web-portal
   aop:
     proxy-target-class: true
 
