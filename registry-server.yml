@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: registry-server
+
 configuration:
   projectName: registry-server
 
