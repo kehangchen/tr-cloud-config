@@ -21,6 +21,11 @@ com:
         port: 3306
         databaseName: oauth_db
         userName: root
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
         
 include:
   test:
