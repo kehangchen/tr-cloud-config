@@ -1,6 +1,6 @@
 spring:
   application:
-    name: registry-server
+    name: auth-server
   profiles:
     active:  docker
 
