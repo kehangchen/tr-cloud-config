@@ -25,7 +25,7 @@ com:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://user:password@localhost:8761/eureka/
         
 include:
   test:
