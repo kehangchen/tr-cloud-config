@@ -38,6 +38,11 @@ zuul:
       #path: /oauth/authorize/**
       #url: http://localhost:9080/tr/oauth/authorize
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
 logging:
   level:
     org.springframework.security: DEBUG
