@@ -30,4 +30,4 @@ com:
   traderocket:
     businessservice:
       config:
-        message: Hello Trade Rocket Business Service local (1)!
+        message: Hello Trade Rocket Business Service local (2)!
