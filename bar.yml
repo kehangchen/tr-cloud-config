@@ -1,4 +1,4 @@
-server:xi:
+server:
   port: 8081
 
 foo: bar2
