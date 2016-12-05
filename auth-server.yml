@@ -21,6 +21,7 @@ com:
         port: 3306
         databaseName: oauth_db
         userName: root
+        password: password
 
 eureka:
   client:
