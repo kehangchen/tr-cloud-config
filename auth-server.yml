@@ -33,6 +33,8 @@ include:
     users: true
   db:
     users: true
+  ldap:
+    users: true
         
 ---
 
