@@ -40,8 +40,8 @@ ldap:
   ldapUrl: ldap://127.0.0.1:10389/dc=example,dc=com
   bindPW: 
   groupSearchBase: dc=groups
-	groupSearchFilter: (uniqueMember={0})
-	userDnPattern: uid={0},dc=people
+  groupSearchFilter: (uniqueMember={0})
+  userDnPattern: uid={0},dc=people
 
 ---
 
