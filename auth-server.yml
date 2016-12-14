@@ -43,6 +43,8 @@ ldap:
   groupSearchFilter: (uniqueMember={0})
   userDnPattern: uid={0},dc=people
   groupRoleAttribute: cn
+  #this seems does not work the way of the design.  It only adds whatever you put into this field.  If you put A in this filed
+  #it will make the role to be ROLE_Axxxx.
   rolePrefix: 
 
 ---
