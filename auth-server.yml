@@ -42,8 +42,8 @@ ldap:
   groupSearchBase: dc=groups
   groupSearchFilter: (uniqueMember={0})
   userDnPattern: uid={0},dc=people
-  groupRoleAttribute: cn
-  rolePrefix: ROLE_
+  groupRoleAttribute: businessCategory
+  rolePrefix: ROLES_
 
 ---
 
