@@ -31,3 +31,7 @@ com:
     businessservice:
       config:
         message: Hello Trade Rocket Business Service local (3)!
+
+mail:
+  aes:
+    key: need tobe change
