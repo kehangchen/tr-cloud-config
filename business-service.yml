@@ -36,4 +36,4 @@ mail:
   aes:
     key: need tobe change
   verification:
-    url: http://localhost:9081/tr/api/businessservice/confirmRegistration
+    url: http://localhost:9081/tr/api/businessservice/unsecured/confirmRegistration
