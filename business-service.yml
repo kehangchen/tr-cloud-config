@@ -37,3 +37,9 @@ mail:
     key: need tobe change
   verification:
     url: http://localhost:9081/tr/api/businessservice/unsecured/confirmRegistration
+    
+ldap:
+  ldapUrl: ldap://127.0.0.1:10389
+  base: dc=example,dc=com
+  userDn: uid=admin,ou=system
+  userPassword: secret
