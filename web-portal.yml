@@ -27,7 +27,7 @@ zuul:
   routes:
     resource:
       path: /resource/**
-      url: http://localhost:9081/tr/api/businessservice/secured
+      url: http://localhost:9081/tr/api/businessservice/email
     user:
       path: /user/**
       url: http://localhost:9080/tr/user
