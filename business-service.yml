@@ -36,7 +36,7 @@ mail:
   aes:
     key: need tobe change
   verification:
-    url: http://localhost:9081/tr/api/businessservice/email/confirmRegistration
+    url: http://localhost:9081/tr/api/businessservice/email/confirmation
     
 ldap:
   ldapUrl: ldap://127.0.0.1:10389
