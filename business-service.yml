@@ -43,6 +43,8 @@ ldap:
   base: dc=example,dc=com
   userDn: uid=admin,ou=system
   userPassword: secret
+  password:
+    length: 8
   
 tfa:
   qrPrefix: https://chart.googleapis.com/chart?chs=200x200&chld=M%%7C0&cht=qr&chl=
