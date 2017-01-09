@@ -47,6 +47,8 @@ ldap:
   #it will make the role to be ROLE_Axxxx.
   rolePrefix: ROLE_
   enable2FA: true
+  secretAttributeName: displayName
+  tfaAttributeName: carLicense
 
 ---
 
