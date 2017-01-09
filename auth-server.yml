@@ -30,7 +30,7 @@ eureka:
         
 include:
   test:
-    users: false
+    users: true
   db:
     users: true
   ldap:
