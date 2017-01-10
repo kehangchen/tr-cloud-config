@@ -7,7 +7,8 @@ spring:
     proxy-target-class: true
     
 server:
-  port: 8081    
+  port: 8081
+  contextPath: /pemex
 
 security:
   user:
