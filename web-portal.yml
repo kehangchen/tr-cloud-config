@@ -6,6 +6,9 @@ spring:
   aop:
     proxy-target-class: true
 
+server:
+  port: 8080
+  contextPath: /traderocket
 
 security:
   user:
