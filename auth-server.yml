@@ -49,6 +49,7 @@ ldap:
   enable2FA: true
   secretAttributeName: displayName
   tfaAttributeName: carLicense
+  passwordAttributeName: userPassword
 
 ---
 
