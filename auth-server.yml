@@ -22,6 +22,7 @@ com:
         databaseName: oauth_db
         userName: root
         password: password
+        customers: traderocket,pemex,hitachi
 
 eureka:
   client:
