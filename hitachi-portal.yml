@@ -2,12 +2,13 @@ debug: true
 
 spring:
   application:
-    name: pemex-portal
+    name: hitachi-portal
   aop:
     proxy-target-class: true
     
 server:
-  port: 8082    
+  port: 8082
+  contextPath: /hitachi
 
 security:
   user:
