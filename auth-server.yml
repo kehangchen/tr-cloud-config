@@ -23,7 +23,7 @@ com:
         userName: root
         password: password
         customers: traderocket,pemex,hitachi
-        clients: "{traderocket:login,pemex:login_pemex,hitachi:}"
+        clients: "{traderocket:login,pemex:login_pemex,hitachi:login}"
 
 eureka:
   client:
