@@ -24,7 +24,10 @@ com:
         password: password
         clients: "{\"traderocket\":\"/login\",\"pemex\":\"/login_pemex\"}"
         defaultLoginUrl: "/login"
-
+        customers:
+          traderocket: login
+          pemex: login_pemex
+          default: login
 eureka:
   client:
     serviceUrl:
