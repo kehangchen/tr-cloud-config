@@ -21,6 +21,7 @@ security:
       userAuthorizationUri: http://localhost:9080/tr/oauth/authorize
       clientId: trclient
       clientSecret: trclientpassword
+      access-token-validity-seconds: 30
     resource:
       jwt:
         keyValue: |
