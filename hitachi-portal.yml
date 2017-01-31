@@ -33,6 +33,9 @@ zuul:
     users:
       path: /users/**
       url: http://localhost:9081/tr/api/businessservice/users
+    links:
+      path: /links/**
+      url: http://localhost:9081/tr/api/businessservice/links
     user:
       path: /user/**
       url: http://localhost:9080/tr/user
