@@ -28,6 +28,10 @@ com:
           traderocket: login
           pemex: login_pemex
           default: login
+        authentication:
+          maxSessions: 0
+          tokenValidityPeriod: 1800
+          supportedGrantTypes: authorization_code,password,client_credentials
 eureka:
   client:
     serviceUrl:
