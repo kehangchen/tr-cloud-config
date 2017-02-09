@@ -22,7 +22,7 @@ com:
         databaseName: oauth_db
         userName: root
         password: password
-        clients: "{\"traderocket\":\"/login_new\",\"pemex\":\"/login_pemex\"}"
+        clients: "{\"traderocket\":\"/login\",\"pemex\":\"/login_pemex\"}"
         defaultLoginUrl: "/login"
         customers:
           traderocket: login
