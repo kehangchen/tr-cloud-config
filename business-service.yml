@@ -1,6 +1,17 @@
 spring:
   application:
     name: business-service
+  profiles:
+    active: live  
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    protocol: smtp
+    username: ${emailUsername}
+    password: ${emailPwd}
+    smtp:
+      auth: true
+      starttls: true
 
 configuration:
   projectName: business-service
