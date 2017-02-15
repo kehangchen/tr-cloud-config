@@ -30,7 +30,7 @@ com:
           default: login
         authentication:
           maxSessions: 0
-          tokenValidityPeriod: 1800
+          tokenValidityPeriod: 180000
           supportedGrantTypes: authorization_code,password,client_credentials
 eureka:
   client:
