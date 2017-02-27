@@ -42,7 +42,7 @@ include:
     users: false
   defaultDb:
     users: false
-  db
+  db:
     users: true
   ldap:
     users: true
