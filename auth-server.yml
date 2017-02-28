@@ -56,7 +56,7 @@ ldap:
   groupRoleAttribute: cn
   #this seems does not work the way of the design.  It only adds whatever you put into this field.  If you put A in this filed
   #it will make the role to be ROLE_Axxxx.
-  rolePrefix: ""
+  rolePrefix: ROLE_
   enable2FA: true
   secretAttributeName: displayName
   tfaAttributeName: carLicense
