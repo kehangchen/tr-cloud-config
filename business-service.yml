@@ -63,4 +63,4 @@ tfa:
 
 pv1:
   autolink:
-    timeout: 30
+    timeout: 3600
