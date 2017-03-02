@@ -40,7 +40,7 @@ eureka:
 include:
   # this is to enable the in-memory database authentication provider using h2 
   test:
-    users: false
+    users: true
   # this is to enable spring default implementation database authentication provider using mysql database
   defaultDb:
     users: false
