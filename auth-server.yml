@@ -39,7 +39,7 @@ eureka:
         
 include:
   test:
-    users: false
+    users: true
   defaultDb:
     users: false
   db:
