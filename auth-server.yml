@@ -49,7 +49,7 @@ include:
     users: true
   # this is ldap implementation authentication provider
   ldap:
-    users: false
+    users: true
         
 ldap:
   ldapUrl: ldap://127.0.0.1:10389/dc=example,dc=com
