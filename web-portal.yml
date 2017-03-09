@@ -17,8 +17,8 @@ security:
     password: none
   oauth2:
     client:
-      accessTokenUri: http://192.168.128.21:9080/tr/oauth/token
-      userAuthorizationUri: http://192.168.128.21:9080/tr/oauth/authorize
+      accessTokenUri: http://localhost:9080/tr/oauth/token
+      userAuthorizationUri: http://localhost:9080/tr/oauth/authorize
       clientId: trclient
       clientSecret: trclientpassword
       access-token-validity-seconds: 180000
@@ -33,16 +33,16 @@ zuul:
   routes:
     resource:
       path: /resource/**
-      url: http://192.168.128.21:9081/tr/api/businessservice/email
+      url: http://localhost:9081/tr/api/businessservice/email
     users:
       path: /users/**
-      url: http://192.168.128.21:9081/tr/api/businessservice/users
+      url: http://localhost:9081/tr/api/businessservice/users
     links:
       path: /links/**
-      url: http://192.168.128.21:9081/tr/api/businessservice/links
+      url: http://localhost:9081/tr/api/businessservice/links
     user:
       path: /user/**
-      url: http://192.168.128.21:9080/tr/user
+      url: http://localhost:9080/tr/user
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
