@@ -46,10 +46,10 @@ include:
     users: false
   # this is to enable the production ready database authentication provider using sql server database
   db:
-    users: true
+    users: false
   # this is ldap implementation authentication provider
   ldap:
-    users: true
+    users: false
         
 ldap:
   ldapUrl: ldap://127.0.0.1:10389/dc=example,dc=com
