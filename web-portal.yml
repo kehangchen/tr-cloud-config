@@ -10,7 +10,7 @@ server:
   port: 8083
   contextPath: ${contextPath}
   session:
-    timeout: 1800000
+    timeout: 180000
 
 security:
   user:
