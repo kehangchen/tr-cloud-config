@@ -36,7 +36,7 @@ zuul:
       url: http://localhost:9081/tr/api/businessservice/email
     users:
       path: /users/**
-      url: http://localhost:9081/tr/api/businessservice/users
+      url: http://localhost:9081/tr/api/accesscontrolservice/users
     links:
       path: /links/**
       url: http://localhost:9081/tr/api/businessservice/links
