@@ -16,7 +16,7 @@ spring:
 configuration:
   projectName: access-control-service
 server:
-  port: 9089
+  port: 9999
   contextPath: /tr/api/accesscontrolservice
 
 logging:
@@ -47,7 +47,7 @@ mail:
   aes:
     key: need tobe change
   verification:
-    url: http://localhost:9081/tr/api/businessservice/email/confirmation
+    url: http://localhost:9081/tr/api/accesscontrolservice/email/confirmation
     
 ldap:
   ldapUrl: ldap://127.0.0.1:10389
