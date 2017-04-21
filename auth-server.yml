@@ -16,7 +16,8 @@ com:
   traderocker:
     authserver:
       config:
-        driverClassName: com.mysql.jdbc.Driver
+        #driverClassName: com.mysql.jdbc.Driver
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
         url: jdbc:mysql://localhost
         port: 3306
         databaseName: oauth_db
