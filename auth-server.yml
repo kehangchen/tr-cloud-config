@@ -19,7 +19,7 @@ com:
         #driverClassName: com.mysql.jdbc.Driver
         driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
         databaseDialect: org.hibernate.dialect.SQLServerDialect
-        url: "jdbc:sqlserver://localhost;databaseName="
+        url: "jdbc:sqlserver://localhost;databaseName=gemini_dev3"
         port: 3306
         databaseName: "/Import_mssql.sql"
         userName: root
