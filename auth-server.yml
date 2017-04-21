@@ -18,6 +18,7 @@ com:
       config:
         #driverClassName: com.mysql.jdbc.Driver
         driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        databaseDialect: org.hibernate.dialect.SQLServerDialect
         url: jdbc:mysql://localhost
         port: 3306
         databaseName: oauth_db
