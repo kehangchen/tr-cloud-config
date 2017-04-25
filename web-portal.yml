@@ -46,7 +46,8 @@ zuul:
     programs:
       path: /programs/**
       #url: http://localhost:1880/getFlowsWithStart
-      url: http://localhost:1880
+      #url: http://localhost:1880
+      url: 'http://35.163.222.131:8880'
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
