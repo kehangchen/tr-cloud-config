@@ -23,7 +23,7 @@ security:
       clientSecret: trclientpassword
       access-token-validity-seconds: 1800000
       #added on 4/26/2017
-      pre-established-redirect-uri: ${authRootUrl}/tr/login1
+      pre-established-redirect-uri: https://auth-service-dev.traderocket.io/tr/login
       registered-redirect-uri: ${authRootUrl}/tr/login1
       use-current-uri: false
     resource:
