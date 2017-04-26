@@ -17,14 +17,14 @@ security:
     password: none
   oauth2:
     client:
-      accessTokenUri: http://${authRootUrl}/tr/oauth/token
-      userAuthorizationUri: http://${authRootUrl}/tr/oauth/authorize
+      accessTokenUri: ${authRootUrl}/tr/oauth/token
+      userAuthorizationUri: ${authRootUrl}/tr/oauth/authorize
       clientId: trclient
       clientSecret: trclientpassword
       access-token-validity-seconds: 1800000
       #added on 4/26/2017
-      pre-established-redirect-uri: https://${authRootUrl}/tr/login
-      registered-redirect-uri: https://${authRootUrl}/tr/login
+      pre-established-redirect-uri: ${authRootUrl}/tr/login
+      registered-redirect-uri: ${authRootUrl}/tr/login
       use-current-uri: false
     resource:
       jwt:
@@ -51,7 +51,7 @@ zuul:
       path: /programs/**
       #url: http://localhost:1880/getFlowsWithStart
       #url: http://localhost:1880
-      url: 'http://${noderedRootUrl}'
+      url: ${noderedRootUrl}
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
@@ -60,7 +60,7 @@ zuul:
       #url: http://localhost:9080/tr/oauth/authorize
     login:
       path: /login/**
-      url: http://localhost:9080/tr/login
+      url: ${authRootUrl}/tr/login
 
 eureka:
   client:
