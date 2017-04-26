@@ -17,8 +17,8 @@ security:
     password: none
   oauth2:
     client:
-      accessTokenUri: http://${authServerDomain}:9080/tr/oauth/token
-      userAuthorizationUri: http://${authServerDomain}:9080/tr/oauth/authorize
+      accessTokenUri: http://${authRootUrl}/tr/oauth/token
+      userAuthorizationUri: http://${authRootUrl}/tr/oauth/authorize
       clientId: trclient
       clientSecret: trclientpassword
       access-token-validity-seconds: 1800000
@@ -47,7 +47,7 @@ zuul:
       path: /programs/**
       #url: http://localhost:1880/getFlowsWithStart
       #url: http://localhost:1880
-      url: 'http://35.163.222.131:8880'
+      url: 'http://${noderedRootUrl}'
     #oauth:
       #path: /oauth/token/**
       #url: http://localhost:9080/tr/oauth/token
