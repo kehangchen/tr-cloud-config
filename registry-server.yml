@@ -6,8 +6,7 @@ configuration:
   projectName: registry-server
 
 server:
-  #port: 8761
-  port: ${registryServerPort}
+  port: 8761
 
 security:
   user:
