@@ -5,7 +5,8 @@ spring:
     active:  docker
 
 server:
-  port: 9080
+  #port: 9080
+  port: ${authserverPort}
   contextPath: /tr
 
 logging:
@@ -13,7 +14,7 @@ logging:
     org.springframework.security: DEBUG
     
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         #driverClassName: com.mysql.jdbc.Driver
@@ -37,7 +38,8 @@ com:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:password@localhost:8761/eureka/
+      #defaultZone: http://user:password@localhost:8761/eureka/
+      defaultZone: ${registryServerBaseUrl}/eureka/
         
 include:
   # this is to enable the in-memory database authentication provider using h2 
@@ -74,7 +76,7 @@ spring:
   profiles: docker
 
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         password: password
@@ -85,7 +87,7 @@ spring:
   profiles: local
   
 com:
-  traderocker:
+  traderocket:
     authserver:
       config:
         password: password
