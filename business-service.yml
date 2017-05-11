@@ -16,8 +16,7 @@ spring:
 configuration:
   projectName: business-service
 server:
-  #port: 9081
-  port: ${businessServicePort}
+  port: 9081
   contextPath: /tr/api/businessservice
 
 logging:
@@ -36,8 +35,7 @@ security:
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://user:password@localhost:8761/eureka/
-      defaultZone: ${registryServerBaseUrl}/eureka/
+      defaultZone: http://user:password@localhost:8761/eureka/
 
 com:
   traderocket:
@@ -49,8 +47,7 @@ mail:
   aes:
     key: need tobe change
   verification:
-    #url: http://localhost:9081/tr/api/businessservice/email/confirmation
-    url: ${mailVerificationUrl}
+    url: http://localhost:9081/tr/api/businessservice/email/confirmation
     
 ldap:
   ldapUrl: ldap://127.0.0.1:10389
